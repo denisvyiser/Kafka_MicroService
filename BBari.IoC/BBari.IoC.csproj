@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BBari.EventBus\BBari.EventBus.csproj" />
+    <ProjectReference Include="..\BBari.Utils\BBari.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

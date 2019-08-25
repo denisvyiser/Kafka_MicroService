@@ -1,0 +1,9 @@
+C:\Users\Denis\source\repos\BBari\BBari.IoC\bin\Debug\netcoreapp2.1\BBari.IoC.deps.json
+C:\Users\Denis\source\repos\BBari\BBari.IoC\bin\Debug\netcoreapp2.1\BBari.IoC.dll
+C:\Users\Denis\source\repos\BBari\BBari.IoC\obj\Debug\netcoreapp2.1\BBari.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\BBari\BBari.IoC\obj\Debug\netcoreapp2.1\BBari.IoC.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\BBari\BBari.IoC\obj\Debug\netcoreapp2.1\BBari.IoC.AssemblyInfo.cs
+C:\Users\Denis\source\repos\BBari\BBari.IoC\bin\Debug\netcoreapp2.1\BBari.Domain.dll
+C:\Users\Denis\source\repos\BBari\BBari.IoC\bin\Debug\netcoreapp2.1\BBari.EventBus.dll
+C:\Users\Denis\source\repos\BBari\BBari.IoC\bin\Debug\netcoreapp2.1\BBari.Utils.dll
+C:\Users\Denis\source\repos\BBari\BBari.IoC\obj\Debug\netcoreapp2.1\BBari.IoC.csprojAssemblyReference.cache
