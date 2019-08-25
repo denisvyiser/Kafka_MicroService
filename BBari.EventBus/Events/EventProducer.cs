@@ -41,6 +41,10 @@ namespace BBari.EventBus.Events
                 producer.Flush(TimeSpan.FromSeconds(10));
             
             }
+            catch (ProduceException<Null, string> ex)
+            {
+                Console.WriteLine(ex);
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);

@@ -50,6 +50,8 @@ namespace BBari.Tests
 
              var mockApi = new Mock<IAppMessageService>();
              mockApi.Setup(svc => svc.MessageConsumererService()).Returns(message);
+
+            Assert.AreEqual(message.Data, message.Data);
         }
 
        

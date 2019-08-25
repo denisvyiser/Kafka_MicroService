@@ -49,31 +49,44 @@ namespace BBari.Application.Services
 
            var newMessage = mapper.Map<NewMessage, Message>(message);
 
-                logger.Information("Teste");
+                
                 eventProducer.Send(newMessage);
-            }catch(Exception ex)
+
+                logger.Information("Dados Enviados");
+            }
+            catch(ProduceException<Null, string> ex)
             {
                 logger.Error(ex.ToString());
             }
-
+            catch (Exception ex)
+            {
+                logger.Error(ex.ToString());
+            }
         }
 
 
         public NewMessage MessageConsumererService()
         {
-            
-          
-            var consumer = new Ninject.Parameters.ConstructorArgument("consumer", new ConsumerBuilder<Ignore, string>(new ConsumerConfig
+            NewMessage newMessage = null;
+
+            try
             {
-                //GroupId = JObject.Parse(line)["ConsumerConfigure"]["GroupId"].Value<string>(),
-                GroupId = jsonHandle.JsonKey("ConsumerConfigure.GroupId"),
-                BootstrapServers = jsonHandle.JsonKey("ConsumerConfigure.BootstrapServers"),
-                AutoOffsetReset = (AutoOffsetReset)Enum.Parse(typeof(AutoOffsetReset), jsonHandle.JsonKey("ConsumerConfigure.AutoOffsetReset")),
-                EnableAutoCommit = bool.Parse(jsonHandle.JsonKey("ConsumerConfigure.EnableAutoCommit"))
-            }).Build());
-            eventConsumer = kernel.Get<EventConsumer>(consumer);
-            
-            var newMessage = mapper.Map<Message, NewMessage>(eventConsumer.Handle());
+                var consumer = new Ninject.Parameters.ConstructorArgument("consumer", new ConsumerBuilder<Ignore, string>(new ConsumerConfig
+                {
+                    //GroupId = JObject.Parse(line)["ConsumerConfigure"]["GroupId"].Value<string>(),
+                    GroupId = jsonHandle.JsonKey("ConsumerConfigure.GroupId"),
+                    BootstrapServers = jsonHandle.JsonKey("ConsumerConfigure.BootstrapServers"),
+                    AutoOffsetReset = (AutoOffsetReset)Enum.Parse(typeof(AutoOffsetReset), jsonHandle.JsonKey("ConsumerConfigure.AutoOffsetReset")),
+                    EnableAutoCommit = bool.Parse(jsonHandle.JsonKey("ConsumerConfigure.EnableAutoCommit"))
+                }).Build());
+                eventConsumer = kernel.Get<EventConsumer>(consumer);
+
+                newMessage = mapper.Map<Message, NewMessage>(eventConsumer.Handle());
+            }
+            catch(ConsumeException ex)
+            {
+                logger.Error(ex.ToString());
+            }
 
             return newMessage;
         }

@@ -5,3 +5,47 @@
 2019-08-25 01:27:39.859 -03:00 [INF] Teste
 2019-08-25 01:27:57.813 -03:00 [INF] Teste
 2019-08-25 01:29:27.409 -03:00 [INF] Teste
+2019-08-25 15:15:40.033 -03:00 [INF] Dados Enviados
+2019-08-25 15:17:49.158 -03:00 [INF] Dados Enviados
+2019-08-25 15:18:39.705 -03:00 [INF] Dados Enviados
+2019-08-25 19:08:50.955 -03:00 [INF] Dados Enviados
+2019-08-25 19:13:03.429 -03:00 [INF] Dados Enviados
+2019-08-25 19:13:23.420 -03:00 [INF] Dados Enviados
+2019-08-25 19:13:38.437 -03:00 [INF] Dados Enviados
+2019-08-25 19:13:53.452 -03:00 [INF] Dados Enviados
+2019-08-25 19:14:08.470 -03:00 [INF] Dados Enviados
+2019-08-25 19:14:23.484 -03:00 [INF] Dados Enviados
+2019-08-25 19:14:38.495 -03:00 [INF] Dados Enviados
+2019-08-25 19:14:53.514 -03:00 [INF] Dados Enviados
+2019-08-25 19:15:08.682 -03:00 [INF] Dados Enviados
+2019-08-25 19:15:23.699 -03:00 [INF] Dados Enviados
+2019-08-25 19:32:59.874 -03:00 [INF] Dados Enviados
+2019-08-25 19:33:29.621 -03:00 [INF] Dados Enviados
+2019-08-25 19:33:50.462 -03:00 [INF] Dados Enviados
+2019-08-25 19:34:05.479 -03:00 [INF] Dados Enviados
+2019-08-25 19:34:20.493 -03:00 [INF] Dados Enviados
+2019-08-25 19:34:35.505 -03:00 [INF] Dados Enviados
+2019-08-25 19:34:50.526 -03:00 [INF] Dados Enviados
+2019-08-25 19:35:05.538 -03:00 [INF] Dados Enviados
+2019-08-25 19:35:20.554 -03:00 [INF] Dados Enviados
+2019-08-25 19:35:35.568 -03:00 [INF] Dados Enviados
+2019-08-25 19:35:50.582 -03:00 [INF] Dados Enviados
+2019-08-25 19:36:05.600 -03:00 [INF] Dados Enviados
+2019-08-25 19:36:20.614 -03:00 [INF] Dados Enviados
+2019-08-25 19:36:35.765 -03:00 [INF] Dados Enviados
+2019-08-25 19:36:50.781 -03:00 [INF] Dados Enviados
+2019-08-25 19:37:05.798 -03:00 [INF] Dados Enviados
+2019-08-25 19:37:20.808 -03:00 [INF] Dados Enviados
+2019-08-25 19:37:35.825 -03:00 [INF] Dados Enviados
+2019-08-25 19:37:50.846 -03:00 [INF] Dados Enviados
+2019-08-25 19:38:05.858 -03:00 [INF] Dados Enviados
+2019-08-25 19:38:20.878 -03:00 [INF] Dados Enviados
+2019-08-25 19:38:35.892 -03:00 [INF] Dados Enviados
+2019-08-25 19:38:50.908 -03:00 [INF] Dados Enviados
+2019-08-25 19:39:05.922 -03:00 [INF] Dados Enviados
+2019-08-25 19:39:20.940 -03:00 [INF] Dados Enviados
+2019-08-25 19:39:35.955 -03:00 [INF] Dados Enviados
+2019-08-25 19:39:50.971 -03:00 [INF] Dados Enviados
+2019-08-25 19:40:05.985 -03:00 [INF] Dados Enviados
+2019-08-25 19:40:21.002 -03:00 [INF] Dados Enviados
+2019-08-25 19:40:36.014 -03:00 [INF] Dados Enviados
