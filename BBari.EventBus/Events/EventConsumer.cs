@@ -35,6 +35,7 @@ namespace BBari.EventBus.Events
                         };
 
                         var cr = consumer.Consume(cts.Token);
+                                 consumer.Close();
 
                     message = JsonAdapter<Message>.Deserialize(cr.Value);
 
